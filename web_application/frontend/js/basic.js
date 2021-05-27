@@ -20,7 +20,6 @@ async function create_element() {
       case "ship":  $("#ship_title").text("Додавання нового корабля");
                        $("#ship_yes").text("Додати");
                        prepare_ports_for_dropdown(target);
-                       alert(`${target}`);
                        break;
 
    }
